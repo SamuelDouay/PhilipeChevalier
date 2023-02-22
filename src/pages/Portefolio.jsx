@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ProjectComponent from "../components/ProjectComponent";
 import { Behance } from "../resources/Behance";
 
 const Portefolio = () => {
@@ -14,10 +15,13 @@ const Portefolio = () => {
       <div id="project_container">
         <div id="presentation_project">
           {project.map((e, index) => (
-            <a href={e.url} target="_blank"><img key={index} src={e.covers.original} alt={e.slug} /></a>
+            <a href={e.url} key={index} target="_blank">
+              <img src={e.covers.original} alt={e.slug} />
+            </a>
           ))}
         </div>
       </div>
+      <ProjectComponent projectId={162287827} />
     </section>
   );
 };

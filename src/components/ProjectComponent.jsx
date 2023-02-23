@@ -13,6 +13,7 @@ const ProjectComponent = ({ projectId }) => {
   return (
     <div className="modal">
       {project.id}
+      {project.name}
     </div>
   );
 };

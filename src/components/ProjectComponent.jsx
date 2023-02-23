@@ -12,7 +12,7 @@ const ProjectComponent = ({ projectId }) => {
 
   return (
     <div className="modal">
-        {console.log(project.modules)}
+      {project.id}
     </div>
   );
 };

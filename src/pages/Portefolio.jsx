@@ -21,7 +21,7 @@ const Portefolio = () => {
           ))}
         </div>
       </div>
-      <ProjectComponent projectId={162287827} />
+      <ProjectComponent projectId={135384689} />
     </section>
   );
 };

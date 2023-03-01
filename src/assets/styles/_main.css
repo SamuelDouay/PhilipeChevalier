@@ -55,5 +55,6 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 480px) {
 	#root {
     max-width: 400px;
+    width: 90%;
 	}
 }

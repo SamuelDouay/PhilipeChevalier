@@ -115,10 +115,11 @@ body::-webkit-scrollbar-track {
   bottom:20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
   #project_container {
     height: 500px;
+    padding-left: 15px;
   }
 
   #presentation_project {

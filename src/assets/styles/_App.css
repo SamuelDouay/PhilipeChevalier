@@ -29,13 +29,13 @@ h3 {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 	section {
 		height: fit-content;
 	}
 
   h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   #root > div {

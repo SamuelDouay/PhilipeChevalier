@@ -51,14 +51,14 @@ h3 {
   font-size: 13px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
   .parts_a_propos{
-    margin-bottom: 25px;
+    margin-bottom: 80px;
   }
   
   .contenu_a_propos {
-    margin-top: 15px;
+    margin-top: 30px;
     flex-direction: column;
   }
 
@@ -78,6 +78,14 @@ h3 {
   }
 
   #logiciel_contain a {
-    width: 25%;
+    width: 21%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+  }
+
+  #paragraphe_contain {
+    margin-top: 30px;
   }
 }

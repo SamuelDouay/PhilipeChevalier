@@ -50,13 +50,13 @@ header {
   width: 2%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   #header {
     max-width: 350px;
   }
 
   #header nav {
-    width: 65%;
+    width: 80%;
   }
 
   #header nav a {

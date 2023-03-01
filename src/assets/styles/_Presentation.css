@@ -37,7 +37,7 @@
   flex-direction: column;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   #presentation_section > section {
     flex-direction: column;
   }
@@ -52,6 +52,10 @@
 
   #presentation_section > section > div:nth-child(3) {
     order: 3;
+  }
+
+  #presentation_section > section > div > img {
+    height: 350px;
   }
   
   #phrase_general {

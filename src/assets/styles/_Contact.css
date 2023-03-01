@@ -36,7 +36,7 @@
   user-select:text;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 	#contact_container {
     width: 100%;
     padding-left: 35px;

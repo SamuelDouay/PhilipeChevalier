@@ -119,12 +119,14 @@ body::-webkit-scrollbar-track {
 
   #project_container {
     height: 500px;
-    padding-left: 4%;
+    width: 100%;
   }
 
   #presentation_project {
     overflow:scroll;
+    width: 80%;
     height: 450px;
+    margin: auto;
   }
 
 
